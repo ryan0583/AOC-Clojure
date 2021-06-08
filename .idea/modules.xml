@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AOC-Clojure.iml" filepath="$PROJECT_DIR$/AOC-Clojure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aoc-clojure-leiningen.iml" filepath="$PROJECT_DIR$/aoc-clojure-leiningen.iml" />
     </modules>
   </component>
 </project>
