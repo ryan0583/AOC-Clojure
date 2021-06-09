@@ -14,17 +14,19 @@
                         :password (parsePassword line)})
 
 (defn countLetter [letter password]
-  (count (filter #(= letter %) password))
+  (->> password
+       (filter #(= letter %))
+       (count)
+       )
   )
 
 (defn checkValid [letter min max password]
   (<= min (countLetter letter password) max))
 
 (def parsed
-  (map
-    #(parseLine %)
-    lines
-    )
+  (->> lines
+       (map #(parseLine %))
+       )
   )
 
 (defn validCount [validFn]
@@ -42,17 +44,16 @@
 (print "Part 1: ")
 (println (validCount checkValid))
 
-(defn match [letter pos password] (= (nth password (dec pos)) letter))
+(defn match [letter pos password] (->> letter(= (nth password (dec pos)))))
 
-(defn singleMatch [letter min max password] (or (match letter min password) (match letter max password)))
+(defn singleMatch [letter min max password] (->> (match letter max password)(or (match letter min password))))
 
-(defn bothMatch [letter min max password] (and (match letter min password) (match letter max password)))
+(defn bothMatch [letter min max password] (->> (match letter max password)(and (match letter min password))))
 
 (defn checkValid2 [letter min max password]
-  (and
-    (singleMatch letter min max password)
-    (not (bothMatch letter min max password))
-    )
+  (->> (not (bothMatch letter min max password))
+      (and (singleMatch letter min max password))
+      )
   )
 
 (print "Part 2: ")

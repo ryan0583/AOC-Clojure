@@ -1,17 +1,16 @@
 (ns Day3.day3
   (:require [Utils.utils :as utils]))
 
-(def lines (map #(seq %) (utils/readlines "resources/Day3/Input.txt")))
+(def lines (->> (utils/readlines "resources/Day3/Input.txt")
+                (map #(seq %))))
 
 (def maxX (count (first lines)))
 (def maxY (count lines))
 
 (defn isTree [x y]
-  (= \#
-     (nth
-       (nth lines y) (mod x maxX)
-       )
-     )
+  (->> (mod x maxX)
+       (nth (nth lines y))
+       (= \#))
   )
 
 (defn checkTrees [yStep xStep]
@@ -27,4 +26,4 @@
                   )
   )
 
-(println (reduce * totalTrees))
+(println (->> totalTrees(reduce *)))

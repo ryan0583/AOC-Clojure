@@ -8,7 +8,7 @@
 
 (defn remainderInList [val] (some #(= (findRemainder val) %) lines))
 
-(defn pairSumRemainderInList [pair] (remainderInList (+ (nth pair 0) (nth pair 1))))
+(defn pairSumRemainderInList [pair] (remainderInList (+ (first pair) (second pair))))
 
 (def result1
   (first
