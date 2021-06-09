@@ -1,7 +1,7 @@
-(ns Utils.utils (:require [clojure.java.io :as io]))
+(ns Utils.utils)
 
 (defn readlines [filename]
-  (with-open [rdr (io/reader filename)]
-    (doall (line-seq rdr))))
+  (clojure.string/split-lines (slurp filename))
+  )
 
 

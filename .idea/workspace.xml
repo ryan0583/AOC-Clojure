@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e26acb6-6cdb-4395-a6f1-ce27800db129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/Day2/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2/day2.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Day3/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/day3.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/utils.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/utils.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +25,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Day2/day2.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/Day3/Input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Day3/day3.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -37,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/resources/Day2/Input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="11" lean-forward="true" selection-end-line="999" selection-end-column="16" />
+              <caret line="8" column="11" selection-end-line="999" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -46,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/Utils/utils.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -85,6 +104,9 @@
         <option value="$PROJECT_DIR$/src/Day1/day1.clj" />
         <option value="$PROJECT_DIR$/resources/Day2/Input.txt" />
         <option value="$PROJECT_DIR$/src/Day2/day2.clj" />
+        <option value="$PROJECT_DIR$/src/Utils/utils.clj" />
+        <option value="$PROJECT_DIR$/resources/Day3/Input.txt" />
+        <option value="$PROJECT_DIR$/src/Day3/day3.clj" />
       </list>
     </option>
   </component>
@@ -99,7 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,6 +149,12 @@
             <path>
               <item name="aoc-clojure-leiningen" type="b2602c69:ProjectViewProjectNode" />
               <item name="aoc-clojure-leiningen" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aoc-clojure-leiningen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aoc-clojure-leiningen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -141,15 +169,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Day2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aoc-clojure-leiningen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aoc-clojure-leiningen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aoc-clojure-leiningen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aoc-clojure-leiningen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623247943699" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623276610842" />
     <property name="cursive.last.file.extension.C\:/Users/User/Documents/Learning/aoc-clojure-leiningen/src" value="clj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../AOC-Clojure" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
@@ -175,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.day2">
+  <component name="RunManager" selected="Clojure Application.day3">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -225,9 +265,24 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration name="day3" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+      <module name="aoc-clojure-leiningen" />
+      <setting name="path" value="C:\Users\ryan\Documents\Learning\aoc-clojure-leiningen\src\Day3\day3.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Clojure Application.day1" />
       <item itemvalue="Clojure Application.day2" />
+      <item itemvalue="Clojure Application.day3" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -247,7 +302,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -256,14 +311,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" weight="0.3993559" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.494705" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969743" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="RNConsole" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50378215" side_tool="true" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.505295" side_tool="true" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -279,6 +334,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>yStep</expression-string>
+        <language-id>Clojure</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>(or (= (nth password (dec min)) letter) (= (nth password (dec max)) letter)))</expression-string>
         <language-id>Clojure</language-id>
@@ -312,10 +372,17 @@
     <entry file="file://$PROJECT_DIR$/resources/Day1/Input.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/utils.clj">
+    <entry file="file://$PROJECT_DIR$/src/Day1/day1.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Day2/Input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-end-line="999" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -329,24 +396,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Day1/day1.clj">
+    <entry file="file://$PROJECT_DIR$/src/Utils/utils.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Day2/Input.txt">
+    <entry file="file://$PROJECT_DIR$/resources/Day3/Input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" lean-forward="true" selection-end-line="999" selection-end-column="16" />
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day2/day2.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day3/day3.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
